@@ -1,4 +1,4 @@
-# kaggle-HW1
+# Kaggle-HW1
 
 Code for 10th place solution in Kaggle Human CS_T0828_HW1 Challenge.
 
@@ -59,11 +59,9 @@ Model | GPUs | Image size | Training Epochs | Training Time
 ------------ | ------------- | ------------- | ------------- | -------------
 resnet50 | 2x 2080Ti | 512 | 180 | 21 hours
 ## Pretrained models
-You can download pretrained model that used for my submission from link. Or run following command.
-```bash
-$ wget 
-$ unzip pretrain_model.zip
-```
+You can download pretrained model that used for my submission from [link](https://drive.google.com/file/d/1-x33sKGFGgp22Tg7Z_0B6QzDwEcAdp1R/view). 
+
+
 Unzip them into results then you can see following structure:
 ```bash
 pretrain_model
@@ -74,6 +72,7 @@ pretrain_model
   |  +- 3.pth
   |  +- 4.pth
   |  +- 5.pth
+  |  +- 6.pth
 ```
 
 ##Inference
@@ -91,9 +90,6 @@ $ python make_submission.py \
 ```
 
 ## Citation
-
-If you use this codebase in your research, please cite our paper:
-
 ```bib
 @InProceedings{Zhou_2020_CVPR,
 author = {Zhou, Mohan and Bai, Yalong and Zhang, Wei and Zhao, Tiejun and Mei, Tao},
