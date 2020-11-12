@@ -2,6 +2,12 @@
 
 Code for 10th place solution in Kaggle Human CS_T0828_HW1 Challenge.
 
+## Abstract
+
+In this work, I use resnet50 and LIO to train my model
+
+LIO [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhou_Look-Into-Object_Self-Supervised_Structure_Modeling_for_Object_Recognition_CVPR_2020_paper.pdf)|[Github](https://github.com/JDAI-CV/LIO)
+
 ## Reproducing Submission
 
 To reproduct my submission without retrainig, do the following steps:
@@ -46,6 +52,16 @@ https://github.com/Kaggle/kaggle-api
 $ kaggle competitions download -c cs-t0828-2020-hw1
 $ mkdir -p datasets
 $ unzip cs-t0828-2020-hw1.zip -d ./datasets
+```
+
+### Generate CSV files
+
+#### Split Dataset
+
+You can run the following files to split the training set to the validation set
+
+```bash
+$ python data_prep.py --training_data_ratio {the ratio you want(default0.8)}
 ```
 
 ## Training
