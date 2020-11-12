@@ -90,9 +90,6 @@ $ python make_submission.py \
 ```
 
 ## Citation
-
-If you use this codebase in your research, please cite our paper:
-
 ```bib
 @InProceedings{Zhou_2020_CVPR,
 author = {Zhou, Mohan and Bai, Yalong and Zhang, Wei and Zhao, Tiejun and Mei, Tao},
